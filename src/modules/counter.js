@@ -7,7 +7,7 @@ export const increase = createAction(INCREASE);
 export const decrease = createAction(DECREASE);
 
 const initialState = {
-    number: 0
+    number: 0,
 };
 
 const counter = handleActions(
