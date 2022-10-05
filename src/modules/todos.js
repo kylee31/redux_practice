@@ -13,7 +13,6 @@ export const insert = createAction(INSERT, text => ({
     id: id++,
     text,
     done: false
-
 }));
 
 export const toggle = createAction(TOGGLE, id => id);
